@@ -1,0 +1,28 @@
+/* Navigation Component */
+
+.navcontainer{
+    background-color:grey;
+    border-radius:20px 20px 0px 0px;
+    margin:10px;
+    height:auto;
+}
+
+.navcolumn{
+    display: grid;
+    flex-flow: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-decoration: none;
+}
+
+.link{
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}

@@ -1,0 +1,47 @@
+/*-----Back Container-----*/
+
+.imageLogo{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:0;
+    left:0;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease;
+}
+
+.imageLogo:hover{
+    height:110px;
+    width:110px;
+    animation: rotation 2s infinite linear;
+}
+
+.backcontainer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 40px 40px 40px 40px;    
+}
+
+.background{
+    background-color: lightgreen;
+    margin:0;
+    padding:1px;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
