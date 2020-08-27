@@ -1,8 +1,8 @@
 /*-----Back Container-----*/
 
 .imageLogo{
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -13,28 +13,26 @@
 }
 
 .imageLogo:hover{
-    height:110px;
-    width:110px;
+    height:300px;
+    width:300px;
     animation: rotation 2s infinite linear;
 }
 
 .backcontainer{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-top: 10px;
+    margin: 20px;
     width: auto;
     height: auto;
-    background: #7F00FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-color: rgb(90, 0, 0);
     border-radius: 40px 40px 40px 40px;    
 }
 
 .background{
-    background-color: lightgreen;
-    margin:0;
-    padding:1px;
+    background-color: rgb(60, 0, 0);
+    margin-bottom:1px;
+    padding-top:1px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-flow: column;
 }
 
 @keyframes rotation {

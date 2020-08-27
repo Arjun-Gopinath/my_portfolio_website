@@ -10,16 +10,14 @@ const Main = () => {
     return (
         <div className="maincontainer">
             <BrowserRouter>
-            <div className="mainsub">
-            <Switch>
-                <Route path="/" component={Home} exact />
-                <Route path="/projects" component={Projects} />
-                <Route path="/about" component={About} />
-            </Switch>
-            </div> 
-            <div className="navitem">
-            <Navigation/>
-            </div>
+                    <Navigation/>
+                <div className="mainitem">
+                    <Switch>
+                        <Route path="/" component={Home} exact />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/about" component={About} />
+                    </Switch>
+                </div> 
             </BrowserRouter>
         </div>
     )

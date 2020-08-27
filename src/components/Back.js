@@ -7,8 +7,7 @@ const Back = () => {
     return (
         <div className="background">
             <div className="backcontainer">
-                <img className="imageLogo" src={logo}
-                alt="Logo"/>
+                <img className="imageLogo" src={logo} alt="Logo"/>
             </div>
             <Main/>
         </div>
