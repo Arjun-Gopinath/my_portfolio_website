@@ -2,7 +2,7 @@
     background:black;  /* fallback for old browsers */
     display: flex;
     flex-flow: row;
-    justify-content: left;
-    align-items: center;
+    width: 100%;
+    background-size: cover;
 }
 

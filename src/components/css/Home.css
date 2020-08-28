@@ -1,8 +1,7 @@
 .homecontainer{
-    display: grid;
-    grid-template-areas:
-    'Propic homedesc';
     padding-top: 10px;
+    display: flex;
+    flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -10,13 +9,14 @@
 .Propic{
     transition: transform .2s; /* Animation */
     height:auto;
-    width:100%;
     transform: scale(.9);
 }
 
 .Propic img{
-    height: inherit;
-    width:inherit;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Propic:hover {
@@ -25,6 +25,11 @@
 
 .homedesc{
     width: auto;
+    padding: 20px;
+    height: 100%;
     color: white;
+    text-align:center;
+    border-radius: 20px 20px 0px 0px;
     font-family: 'Righteous', cursive;
+    font: 2em sans-serif;
 }

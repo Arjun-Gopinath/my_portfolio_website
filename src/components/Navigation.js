@@ -20,7 +20,7 @@ const Navigation = () => {
                         </Link>
                         <Link to={"/about"} style={{ textDecoration: 'none',color: 'black'}}>
                                 <div className="link">
-                                        <h2>ABOUT</h2>
+                                        <h2>Ask Me Anything</h2>
                                 </div>
                         </Link>
                 </div>

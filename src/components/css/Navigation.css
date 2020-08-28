@@ -7,13 +7,14 @@
     top: 0;
     left: 0;
     height: inherit;
+    background-size: contain;
 }
 
 .navcolumn{
-    height: inherit;
+    height: 100%;
     display: flex;
     flex-flow: column;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -33,7 +34,8 @@
     display: flex;
     flex-flow: row;
     padding: 10px;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     margin: 10px;
     background-color:rgb(140, 0, 0);
     border-radius: 40px 0px 40px 0px;

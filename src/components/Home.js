@@ -3,28 +3,22 @@ import './css/Home.css'
 import propic from '../images/propic.png'
 
 const Home = () => {
-    var i = 0;
-    var txt = 'If you are seeing this you have entered ARJUN G\'s webpage, a BTech graduate and an aspiring web-developer.'; 
-    var speed = 100; /* The speed/duration of the effect in milliseconds */
-    
-    function type() {
-      if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(type, speed);
-      }
-    }
 
     return (
-        <div className="homecontainer" onLoad={() => type()}>
+        <>
+        <div className="homecontainer">
             <div className="Propic" >
                 <img src={propic} alt="Propic"/>
             </div>
             <div className="homedesc">
-                <h1 id="demo"></h1>
+                <h2 id='demo'>If you are seeing this you have entered the webpage of a 
+                BTech graduate and an aspiring mobile app and web developer</h2> 
             </div>
-            
+            <div className="education">
+                <h2></h2>
+            </div>   
         </div>
+        </>
     )
 }
 

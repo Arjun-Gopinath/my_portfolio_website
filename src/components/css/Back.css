@@ -30,6 +30,8 @@
     background-color: rgb(60, 0, 0);
     margin-bottom:1px;
     padding-top:1px;
+    height: auto;
+    width: auto;
     border-radius: 0px 0px 20px 20px;
     display: flex;
     flex-flow: column;
