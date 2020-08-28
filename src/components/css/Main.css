@@ -1,8 +1,8 @@
 .maincontainer{
-    background:black;  /* fallback for old browsers */
+    background:gray;  /* fallback for old browsers */
     display: flex;
     flex-flow: row;
     width: 100%;
-    background-size: cover;
+    height: auto;
+    background-size: contain;
 }
-

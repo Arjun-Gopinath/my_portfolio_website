@@ -11,8 +11,8 @@ const Home = () => {
                 <img src={propic} alt="Propic"/>
             </div>
             <div className="homedesc">
-                <h2 id='demo'>If you are seeing this you have entered the webpage of a 
-                BTech graduate and an aspiring mobile app and web developer</h2> 
+                <h3 id='demo'>If you are seeing this you have entered the webpage of a 
+                BTech graduate and an aspiring mobile app and web developer</h3> 
             </div>
             <div className="education">
                 <h2></h2>

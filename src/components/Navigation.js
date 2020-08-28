@@ -8,19 +8,19 @@ const Navigation = () => {
         <div className="navcontainer">
                 <div className="navcolumn">
                         <Link to={"/"} style={{textDecoration: 'none',color: 'black'}}>
-                        <div className="link">
-                                <img src={home} className="navicon" alt="homeicon"/>
-                                <h2>HOME</h2>
-                        </div>
+                                <div className="link">
+                                        <img src={home} className="navicon" alt="homeicon"/>
+                                        <h4>HOME</h4>
+                                </div>
                         </Link>
                         <Link to={"/projects"} style={{ textDecoration: 'none',color: 'black'}}>
                                 <div className="link">
-                                        <h2>PROJECTS</h2>
+                                        <h4>PROJECTS</h4>
                                 </div> 
                         </Link>
                         <Link to={"/about"} style={{ textDecoration: 'none',color: 'black'}}>
                                 <div className="link">
-                                        <h2>Ask Me Anything</h2>
+                                        <h4>KNOW MORE!!</h4>
                                 </div>
                         </Link>
                 </div>
