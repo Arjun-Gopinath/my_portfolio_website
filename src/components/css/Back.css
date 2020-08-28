@@ -32,11 +32,11 @@
     background-color:#002222;
     margin-bottom:1px;
     padding-top:1px;
+    padding-bottom: 5px;
     height: auto;
-    width: auto;
+    width: 100%;
+    background-size: cover;
     border-radius: 0px 0px 20px 20px;
-    display: flex;
-    flex-flow: column;
 }
 
 @keyframes rotation {

@@ -2,7 +2,8 @@
     background:gray;  /* fallback for old browsers */
     display: flex;
     flex-flow: row;
-    width: 100%;
+    width: auto;
     height: auto;
+    padding: 10px;
     background-size: contain;
 }

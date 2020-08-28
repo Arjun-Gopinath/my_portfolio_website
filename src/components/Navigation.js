@@ -1,32 +1,32 @@
 import React from 'react'
 import './css/Navigation.css'
 import {Link} from 'react-router-dom'
-import home from '../images/home.png'
+import home from '../images/laptop-code-solid.svg'
+import project from '../images/tasks-solid.svg'
+import know from '../images/question-circle-regular.svg'
 
 const Navigation = () => {
-    return (
+        return (
         <div className="navcontainer">
                 <div className="navcolumn">
-                        <Link to={"/"} style={{textDecoration: 'none',color: 'black'}}>
-                                <div className="link">
-                                        <img src={home} className="navicon" alt="homeicon"/>
-                                        <h4>HOME</h4>
-                                </div>
-                        </Link>
-                        <Link to={"/projects"} style={{ textDecoration: 'none',color: 'black'}}>
-                                <div className="link">
-                                        <h4>PROJECTS</h4>
-                                </div> 
-                        </Link>
-                        <Link to={"/about"} style={{ textDecoration: 'none',color: 'black'}}>
-                                <div className="link">
-                                        <h4>KNOW MORE!!</h4>
-                                </div>
-                        </Link>
+                        <Linki to="/" text="Home" source={home} icon="homeicon"/>
+                        <Linki to="/projects" text="Projects" source={project} icon="projicon"/>
+                        <Linki to="/knowmore" text="Know More!!" source={know} icon="knowicon"/>
                 </div>
         </div>
     )
 }
+
+const Linki = ({to,text,source,icon}) => {
+        return(
+        <Link to={to} style={{ textDecoration: 'none',color: 'black'}}>
+                <div className="link">
+                        <img src={source} className="navicon" alt={icon}/>
+                        <h4>{text}</h4>
+                </div>
+        </Link> 
+        )
+} 
 
 export default Navigation
 

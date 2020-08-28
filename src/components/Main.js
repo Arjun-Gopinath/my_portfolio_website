@@ -15,7 +15,7 @@ const Main = () => {
                     <Switch>
                         <Route path="/" component={Home} exact />
                         <Route path="/projects" component={Projects} />
-                        <Route path="/about" component={About} />
+                        <Route path="/knowmore" component={About} />
                     </Switch>
                 </div> 
             </BrowserRouter>
