@@ -2,17 +2,17 @@
     padding-top: 10px;
     display: flex;
     flex-flow: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    justify-content: space-evenly;
+    background-color:#202022;
+    border-radius: 0px 30px 0px 30px;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
 }
 
 .Propic{
-    transition: transform .2s; /* Animation */
+    transition: transform .6s; /* Animation */
     height:auto;
-    background-color: #231022;
+    background-color: #36416b;
     border-radius: 50%;
     padding: 10px;
     overflow: hidden;
@@ -32,10 +32,11 @@
 }
 
 .homedesc{
-    width:100%;
+    width:auto;
     padding: 20px;
+    margin: 10px;
     background-color: lightgrey;
     height: 100%;
     text-align:center;
-    border-radius: 20px 20px 10px 10px;
+    border-radius: 0px 0px 0px 20px;
 }

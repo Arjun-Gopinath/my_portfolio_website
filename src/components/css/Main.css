@@ -1,9 +1,13 @@
 .maincontainer{
-    background:gray;  /* fallback for old browsers */
+    background:lightgray;  /* fallback for old browsers */
     display: flex;
     flex-flow: row;
-    width: auto;
     height: auto;
     padding: 10px;
-    background-size: contain;
+}
+
+.mainitem{
+    width:100%;
+    height: auto;
+    padding: 10px;
 }

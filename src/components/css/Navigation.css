@@ -35,7 +35,8 @@
     margin-top:10px;
     padding:5px;
     justify-content: space-evenly;
-    background-color: beige;
+    align-items: center;
+    background-color: lightcyan;
     border-radius: 40px 0px 40px 0px;
 }
 
@@ -48,5 +49,5 @@
 }
 
 .link h4{
-    font-family: 'Righteous', cursive;
+    font-family: 'Alata', sans-serif;
 }

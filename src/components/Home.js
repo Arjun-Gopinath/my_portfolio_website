@@ -5,15 +5,18 @@ import propic from '../images/propic.png'
 const Home = () => {
 
     return (
-        <>
         <div className="homecontainer">
             <div className="Propic" >
                 <img src={propic} alt="Propic"/>
             </div>
             <div className="homedesc">
+                <h1 id='demo'>
+                    Arjun G
+                </h1>
                 <h3 id='demo'>
-                    If you are seeing this you have entered the webpage of a 
-                    BTech graduate and an aspiring mobile app and web developer
+                A compassionate college student with great interest in computer applications and software development, 
+                willing to obtain a position at your esteemed company that utilizes the technical skills and knowledge 
+                for the development of the organization and in-turn an overall upliftment of my career.
                 </h3> 
             </div>
             <div className="education">
@@ -22,7 +25,6 @@ const Home = () => {
                 </div>
             </div>   
         </div>
-        </>
     )
 }
 
