@@ -1,6 +1,6 @@
+.navcontainer{
 /* Navigation Component */
 
-.navcontainer{
     border-radius:20px 20px 20px 20px;
     margin-top: auto;
     margin-bottom: auto;
@@ -51,3 +51,10 @@
 .link h4{
     font-family: 'Alata', sans-serif;
 }
+
+@media screen and (max-width: 1100px) {
+    .navcontainer {
+     margin-top: 0;
+     margin-bottom: 0; 
+    }
+  }
