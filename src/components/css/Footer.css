@@ -1,0 +1,36 @@
+.footer{
+    width: auto;
+    height:auto;
+    margin: 1px;
+    padding-bottom: 20px;
+    background-color: #002222;
+}
+
+.footer h2{
+    text-align:center;
+    padding: 10px;
+}
+
+.flinks{
+    display:flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #ffffff;
+}
+
+.fcard{
+    padding:10px;
+    margin: 10px;
+    background-color: #002222;
+    border-radius: 50%;
+}
+
+.fcard a{
+    color: #ff70f1;
+}
