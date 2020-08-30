@@ -14,7 +14,7 @@
     cursor: pointer;
     animation: fadeIn 0.3s;
     transition: opacity 0.4s;
-    color: #002222;
+    color: purple;
   }
   
   .scrollTop:hover{

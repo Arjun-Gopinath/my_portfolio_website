@@ -40,3 +40,56 @@
     text-align:center;
     border-radius: 0px 0px 0px 20px;
 }
+
+.education{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #310222;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    width: auto;
+    border: 2px solid yellow;
+}
+
+.education h1{
+    color: antiquewhite;
+}
+
+.school{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #303030;
+    border: 1px;
+}
+
+.edu{
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0.2, 0, 0.2);
+}
+
+.pick{
+    padding: 5px;
+    margin: 5px;
+}
+
+.pickrow{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .school {
+      flex-flow: column;
+    }
+  }

@@ -6,7 +6,6 @@ import './css/Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-            <h2>Footer Ahead</h2>
             <div className="flinks">
                 <Fcard
                 icon = {<DiGithubBadge/>}
