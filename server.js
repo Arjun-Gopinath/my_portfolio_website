@@ -5,10 +5,10 @@ var app = express();
 var http = require("http");
 var server = http.Server(app)
 
-app.use(express.static('src'));
+app.use(express.static(path.join(__dirname,'src')));
 
-server.listen(PORT,function(req,res){
-    res.render('public/index.html');
-})
+app.get('/',function(req,res){
+    res.sendFile(path.join(__dirname,'public','index.html'));
+});
 
 
