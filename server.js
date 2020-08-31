@@ -2,10 +2,10 @@ var PORT = process.env.PORT || 5000;
 var express = require("express");
 var app = express();
 
-app.use(express.static('src/components/css'));
+app.use(express.static('src'));
 
 app.get('/',function(req,res){
-    res.render('index.html');
+    res.render('public/index');
 });
 
 app.listen(process.env.PORT || 5000, function(){
