@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static('src/components/css'));
 
 app.get('/',function(req,res){
-    res.render('public/index.html');
+    res.render('index.html');
 });
 
 app.listen(process.env.PORT || 5000, function(){
