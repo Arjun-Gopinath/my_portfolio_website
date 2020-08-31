@@ -1,15 +1,20 @@
 import React from 'react'
-import {Route, Switch, BrowserRouter} from 'react-router-dom'
+import {Route, Switch, Router} from 'react-router-dom'
 import '../static/css/Main.css'
+
+import { createMemoryHistory } from 'history';
+
 import Home from './Home'
 import Projects from './Projects'
 import About from './About'
 import Navigation from './Navigation'
 
+const history = createMemoryHistory();
+
 const Main = () => {
     return (
         <div className="maincontainer">
-            <BrowserRouter>
+            <Router history={history}>
                     <Navigation/>
                 <div className="mainitem">
                     <Switch>
@@ -18,7 +23,7 @@ const Main = () => {
                         <Route path="/knowmore" component={About} />
                     </Switch>
                 </div> 
-            </BrowserRouter>
+            </Router>
         </div>
     )
 }

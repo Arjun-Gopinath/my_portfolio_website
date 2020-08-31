@@ -4,7 +4,7 @@ import './static/css/index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
+ReactDOM.hydrate(
 <BrowserRouter><App /></BrowserRouter>,
   document.getElementById('root')
 );
