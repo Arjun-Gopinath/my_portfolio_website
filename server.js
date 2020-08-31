@@ -4,8 +4,8 @@ var app = express();
 
 app.use(express.static('src/static'));
 
-app.get('/',(req,res){
-    res.render('public/index.html');
+app.get('/',(req,res) => {
+    res.render('index');
 });
 
 var server = app.listen(PORT, () => {
