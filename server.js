@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static('src/components/css'));
 
 app.get('/',function(req,res){
-    res.render('src/App.js');
+    res.render('src/App');
 });
 
 
