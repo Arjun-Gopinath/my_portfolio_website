@@ -8,7 +8,7 @@ var server = http.Server(app)
 app.use(express.static('src'));
 
 server.listen(PORT,function(req,res){
-    res.render('src/App.js');
+    res.render('public/index.html');
 })
 
 
