@@ -3,9 +3,8 @@ var express = require("express");
 var app = express();
 
 app.use(express.static('src'));
-var httpServer = http.createServer(app);
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/src'));
 
 app.get('/',function(req,res){
     res.render('index');
