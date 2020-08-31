@@ -4,7 +4,10 @@ var app = express();
 
 app.use(express.static('src/static'));
 
-app.get('/',function(req,res){
-    res.render('index');
+app.get('/',(req,res){
+    res.render('public/index.html');
 });
 
+var server = app.listen(PORT, () => {
+    console.log('server start port');
+  });
