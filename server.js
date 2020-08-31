@@ -2,8 +2,6 @@ var PORT = process.env.PORT || 5000;
 var express = require("express");
 var app = express();
 
-app.use(express.static('src'));
-
 app.use(express.static(__dirname + '/src'));
 
 app.get('/',function(req,res){
