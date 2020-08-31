@@ -1,7 +1,7 @@
 import React from 'react'
-import image1 from '../images/Logo.svg'
+import image1 from '../static/images/Logo.svg'
 import Card from './Card'
-import './css/Projects.css'
+import '../static/css/Projects.css'
 
 const Projects = () => {
     return (

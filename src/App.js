@@ -1,6 +1,6 @@
 import React,{useState,Component} from 'react'
 import Back from './components/Back'
-import './App.css'
+import './static/css/App.css'
 import Footer from './components/Footer'
 import {FaArrowCircleUp} from 'react-icons/fa';
 

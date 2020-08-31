@@ -1,7 +1,7 @@
 import React from 'react'
 import {DiGithubBadge} from 'react-icons/di'
 import {FaLinkedinIn,FaInstagram} from 'react-icons/fa'
-import './css/Footer.css'
+import '../static/css/Footer.css'
 
 const Footer = () => {
     return (

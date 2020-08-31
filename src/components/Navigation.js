@@ -1,9 +1,9 @@
 import React from 'react'
-import './css/Navigation.css'
+import '../static/css/Navigation.css'
 import {Link} from 'react-router-dom'
-import home from '../images/laptop-code-solid.svg'
-import project from '../images/tasks-solid.svg'
-import know from '../images/question-circle-regular.svg'
+import home from '../static/images/laptop-code-solid.svg'
+import project from '../static/images/tasks-solid.svg'
+import know from '../static/images/question-circle-regular.svg'
 
 const Navigation = () => {
         return (

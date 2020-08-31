@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../images/Logo.svg';
-import './css/Back.css';
+import logo from '../static/images/Logo.svg';
+import '../static/css/Back.css';
 import Main from './Main'
 
 const Back = () => {

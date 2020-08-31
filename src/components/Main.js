@@ -1,6 +1,6 @@
 import React from 'react'
 import {Route, Switch, BrowserRouter} from 'react-router-dom'
-import './css/Main.css'
+import '../static/css/Main.css'
 import Home from './Home'
 import Projects from './Projects'
 import About from './About'

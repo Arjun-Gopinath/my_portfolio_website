@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Home.css'
-import propic from '../images/propic.png'
+import propic from '../static/images/propic.png'
 import {DiMongodb,DiDjango} from 'react-icons/di'
 import {FaVuejs,FaAngular,FaUnity,FaReact,FaCss3Alt,FaHtml5,FaNodeJs,FaPython} from 'react-icons/fa'
 import {SiRails,SiIonic,SiFirebase, SiJavascript,SiDart,SiFlutter,SiAndroidstudio} from 'react-icons/si'
