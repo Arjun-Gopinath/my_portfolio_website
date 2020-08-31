@@ -83,12 +83,12 @@
 .pickrow{
     display: flex;
     flex-flow: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     margin: 20px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
     .school {
       flex-flow: column;
     }
