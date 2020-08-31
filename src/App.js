@@ -1,7 +1,7 @@
 import React,{useState,Component} from 'react'
-import Back from './components/Back'
+import Back from './views/Back'
 import './static/css/App.css'
-import Footer from './components/Footer'
+import Footer from './views/Footer'
 import {FaArrowCircleUp} from 'react-icons/fa';
 
 class App extends Component{
