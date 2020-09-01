@@ -1,6 +1,6 @@
 .appclass{
-    width: max-content;
-    height: max-content;
+    width: auto;
+    height: auto;
 }
 
 .scrollTop {

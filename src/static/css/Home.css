@@ -78,6 +78,7 @@
 .pick{
     padding: 5px;
     margin: 5px;
+
 }
 
 .pickrow{
@@ -91,5 +92,23 @@
 @media screen and (max-width: 1400px) {
     .school {
       flex-flow: column;
+      width: 70%;
+    }
+    .Propic img{
+        width: 250px;
+    }
+    .homecontainer{
+        width: 100%;
+    }
+    .homedesc{
+        width:70%;
+    }
+    .education{
+        width:70%;
+    }
+    .pickrow{
+        width: 70%;
+        flex-wrap: wrap;
+        align-items: center;
     }
   }
