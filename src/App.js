@@ -33,7 +33,7 @@ const ScrollArrow = () =>{
     }
   };
 
-  const scrollTop = () =>{
+  var scrollTop = () =>{
     window.scrollTo({top: 0, behavior: 'smooth'});
   };
 
