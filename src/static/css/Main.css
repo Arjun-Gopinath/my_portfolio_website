@@ -9,8 +9,10 @@
 .mainitem{
     width:100%;
     height: auto;
-    padding: 10px;
 }
 
 @media screen and (max-width: 1100px) {
-  }
+    .maincontainer{
+        flex-flow: column;
+    }
+}
