@@ -12,7 +12,7 @@ class App extends Component{
         <Back/>
         <Footer/>
         <a className="gotop" href="/">
-        <ScrollArrow/>
+          <ScrollArrow/>
         </a>
       </div>
      )  

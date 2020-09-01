@@ -24,6 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
+    background-size: cover;
     background-color:whitesmoke;
     border-radius: 40px 40px 40px 40px;    
 }
