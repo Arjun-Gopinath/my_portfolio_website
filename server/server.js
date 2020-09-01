@@ -3,16 +3,18 @@ import fs from 'fs'
 import path from 'path'
 
 const PORT = process.env.PORT || 3000
+
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
-
 import App from '../src/App'
 
 if (typeof window === 'undefined') {
     global.window = {}
-}
+  }
 
 const app  = express()
+
+app.use(express.static(path.resolve(__dirname,'..','build')))
 
 app.use('/',(req,res,next)=>{
     fs.readFile(path.resolve('./build/index.html'),'utf-8',(err,data)=>{
@@ -33,8 +35,6 @@ export default (url = '/') => {
          })
        : createBrowserHistory();
 }
-
-app.use(express.static(path.resolve(__dirname,'..','build')))
 
 app.listen(PORT,()=>{
     console.log(`App launched on ${PORT}`)

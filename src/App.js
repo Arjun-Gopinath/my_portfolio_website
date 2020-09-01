@@ -37,7 +37,9 @@ const ScrollArrow = () =>{
     window.scrollTo({top: 0, behavior: 'smooth'});
   };
 
-  window.addEventListener('scroll', checkScrollTop)
+  window.onload=function(){
+    window.addEventListener('scroll', checkScrollTop)
+  }
 
   return (
         <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{height: 40,display: showScroll ? 'flex' : 'none'}}/>
