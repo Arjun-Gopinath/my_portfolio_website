@@ -2,30 +2,3 @@
     width: auto;
     height: auto;
 }
-
-.scrollTop {
-    position: fixed; 
-    width: auto;
-    bottom: 20px;
-    left:40px;
-    height: 20px;
-    z-index: 1000;
-    cursor: pointer;
-    animation: fadeIn 0.3s;
-    transition: opacity 0.4s;
-    color: purple;
-  }
-  
-  .scrollTop:hover{
-    opacity: 1;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 0.5;
-    }
-  }
-

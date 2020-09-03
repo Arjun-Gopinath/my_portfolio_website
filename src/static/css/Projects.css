@@ -1,9 +1,26 @@
 .projcontainer{
-    margin: 0 -5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: -ms-flex; 
+    display: -webkit-flex; 
+    display: flex;
+    height: 100%;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.projcontainer:after {
-    content: "";
-    display: table;
-    clear: both;
+.projcontainer>div { flex:1; }
+
+.projcontainer h1{
+    text-align: center;
+    font-family: Cursive;
+}
+
+@media screen and (max-width:1200px){
+    .projcontainer{
+        flex-flow: column;
+    }
 }

@@ -8,10 +8,6 @@ import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import App from '../src/App'
 
-if (typeof window === 'undefined') {
-    global.window = {}
-  }
-
 const app  = express()
 
 app.use(express.static(path.resolve(__dirname,'..','build')))
