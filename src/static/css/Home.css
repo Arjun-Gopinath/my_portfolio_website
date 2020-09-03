@@ -78,7 +78,11 @@
 .pick{
     padding: 5px;
     margin: 5px;
+    transition: transform .5s;
+}
 
+.pick:hover{
+    transform: scale(1.5);
 }
 
 .pickrow{
